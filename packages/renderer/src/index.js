@@ -46,8 +46,8 @@ const pdf = (initialValue) => {
       author,
       subject,
       keyboards,
-      creator = 'react-pdf',
-      producer = 'react-pdf',
+      creator = 'shiva-pdf',
+      producer = 'shiva-pdf',
       creationDate = new Date(),
       modificationDate,
     } = props;
