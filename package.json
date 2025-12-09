@@ -13,7 +13,7 @@
     "e2e/*"
   ],
   "scripts": {
-    "prepare": "husky",
+    "prepare": "npm run build husky",
     "build": "lerna run build",
     "watch": "lerna run watch --parallel",
     "typecheck": "lerna run typecheck --parallel",
